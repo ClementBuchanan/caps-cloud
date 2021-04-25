@@ -1,0 +1,25 @@
+{
+  "name": "caps-cloud",
+  "version": "1.0.0",
+  "description": "events",
+  "main": "pickup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClementBuchanan/caps-cloud.git"
+  },
+  "author": "Clement Buchanan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClementBuchanan/caps-cloud/issues"
+  },
+  "homepage": "https://github.com/ClementBuchanan/caps-cloud#readme",
+  "dependencies": {
+    "aws-sdk": "^2.892.0",
+    "sqs-consumer": "^5.5.0",
+    "sqs-producer": "^2.1.0",
+    "uuid": "^8.3.2"
+  }
+}
