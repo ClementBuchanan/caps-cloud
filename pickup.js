@@ -14,7 +14,9 @@ setInterval(async () => {
   try {
     const message = {
       id: uuid(),
-      body: `This is message #${counter++}`
+      CustomerName: 'RastaFlowerShop',
+      body: `This is message #${counter++}`,
+      vendorId: `arn:aws:sqs:us-west-2:394321329212:RastaFlowerShop`
     }
     const response = await producer.send(message);
     console.log(response);
